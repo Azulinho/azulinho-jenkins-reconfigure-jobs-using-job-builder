@@ -1,7 +1,7 @@
 
 
 
-job_builder:
+azulinho_jenkins_reconfigure_jobs_using_job_builder:
   - job:
       name: job-builder_flow1
       project_type: job-builder_flow

@@ -12,7 +12,6 @@
     src=jenkins_jobs.ini
   tags: ['reconfigure-jobs-using-job-builder']
 
-
 # the with_items: will return a single dictionary
 # but job_builder requires an array
 # we can convert a dictionary into an array member
@@ -22,7 +21,7 @@
 - name: upload jenkins jobs definitions
   copy: dest="/etc/jenkins_jobs/definitions/{{item.job.name}}"
     content="- {{ item }}"
-  with_items: job_builder
+  with_items: azulinho_jenkins_reconfigure_jobs_using_job_builder
   register: _upload
   tags: ['reconfigure-jobs-using-job-builder']
 
