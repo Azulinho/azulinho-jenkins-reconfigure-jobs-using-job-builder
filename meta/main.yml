@@ -8,5 +8,6 @@ galaxy_info:
       versions: 6
   categories:
     - packaging
-dependencies: []
+dependencies:
+  - Azulinho.azulinho-jenkins-job-builder
 

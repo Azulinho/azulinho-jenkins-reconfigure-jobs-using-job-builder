@@ -8,5 +8,6 @@
 
   roles:
     - Azulinho.azulinho-google-dns
+    - Azulinho.azulinho-jenkins-server
     - this-github-role
 
